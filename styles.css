@@ -1,0 +1,26 @@
+.grid-cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-div {
+    display: flex;
+}
+
+.create-grid-button {
+    margin-top: 25px;
+}
