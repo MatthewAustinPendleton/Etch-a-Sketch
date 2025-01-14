@@ -13,6 +13,6 @@ for (let i = 0; i < 16; i++) {
 
 gridContainer.addEventListener("mouseover", (e) => {
     if (e.target.classList.contains("grid-cell")) {
-        e.target.style.backgroundColor = "black";//"rgb(242, 224, 224)"; 
+        e.target.style.backgroundColor = "black";
     }
 });
